@@ -1,2 +1,3 @@
-# Project-Ekant
-Noise Isolation Project
+# Project-Ekant Frontend
+
+![Frontend Meme](https://i.imgur.com/tYu1uiO.jpg)
