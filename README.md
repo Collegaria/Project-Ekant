@@ -4,13 +4,17 @@
 
 ## Environment activation
 
-On Windows, run:
+- On Windows, run:
+  
   ```.back-env\Scripts\activate.bat```
 
-On Unix or MacOS, run:
+- On Unix or MacOS, run:
+  
   ```source .back-env/bin/activate```
 
-Run `deactivate` to deactivate
+- Run `deactivate` to deactivate
+
+> Remember to write the packages below to ensure better project presentation
 
 ## Packages
 
