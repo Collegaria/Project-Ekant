@@ -7,3 +7,5 @@
 
 # Identification
 - Skshm - Midnight1938
+
+pip3 install SpeechRecognition
