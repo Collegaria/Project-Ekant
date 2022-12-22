@@ -14,7 +14,7 @@ Run `deactivate` to deactivate
 
 ## Packages
 
-- <https://pypi.org/project/SpeechRecognition/>
+- [Speech Recognition Library](https://pypi.org/project/SpeechRecognition)
 
   ```bash
   pip3 install SpeechRecognition
