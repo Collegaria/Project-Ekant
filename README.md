@@ -8,4 +8,6 @@
 # Identification
 - Skshm - Midnight1938
 
+About SR module
+https://pypi.org/project/SpeechRecognition/
 pip3 install SpeechRecognition
