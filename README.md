@@ -2,12 +2,20 @@
 
 ![Backend Meme!](https://img-9gag-fun.9cache.com/photo/aB3n3N2_700bwp.webp)
 
-# Packages
+## Environment activation
 
+On Windows, run:
+  ```.back-env\Scripts\activate.bat```
 
-# Identification
-- Skshm - Midnight1938
+On Unix or MacOS, run:
+  ```source .back-env/bin/activate```
 
-# About SR module
-- https://pypi.org/project/SpeechRecognition/
-- pip3 install SpeechRecognition
+Run `deactivate` to deactivate
+
+## Packages
+
+- <https://pypi.org/project/SpeechRecognition/>
+
+  ```bash
+  pip3 install SpeechRecognition
+  ```
