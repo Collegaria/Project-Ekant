@@ -6,4 +6,4 @@ Noise Isolation Project
 - Krish7-Hub
 - TheDarkNight
 - DyloRage
-- BhargavJoshi
+- bhargavjyoti
