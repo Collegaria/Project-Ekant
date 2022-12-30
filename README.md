@@ -4,13 +4,17 @@
 
 ## Environment activation
 
+- Remember to install virtualenv with
+
+  `python3 -m pip install --user virtualenv`
+
 - On Windows, run:
-  
-  ```.back-env\Scripts\activate.bat```
+
+  `env\Scripts\activate.bat`
 
 - On Unix or MacOS, run:
-  
-  ```source .back-env/bin/activate```
+
+  `source env/bin/activate`
 
 - Run `deactivate` to deactivate
 
@@ -23,3 +27,7 @@
   ```bash
   pip3 install SpeechRecognition
   ```
+
+## Sources
+
+- [Noise Reduction ez](https://colab.research.google.com/github/timsainb/noisereduce/blob/master/notebooks/1.0-test-noise-reduction.ipynb#scrollTo=J1Yux6VoDCEC)
