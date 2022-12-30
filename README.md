@@ -18,7 +18,7 @@
 
 - Run `deactivate` to deactivate
 
-> Remember to write the packages below to ensure better project presentation
+> Remember to write the packages below and in requirements.txt to ensure better project presentation
 
 ## Packages
 
