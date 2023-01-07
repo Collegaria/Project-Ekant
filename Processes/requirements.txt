@@ -1,0 +1,9 @@
+scipy
+noisereduce
+soundfile
+sounddevice
+wavio
+simple-diarizer
+tqdm
+validators
+youtube-dl
