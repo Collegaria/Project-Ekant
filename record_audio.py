@@ -6,7 +6,6 @@ import wavio as wv
 
 def recorder(freq, duration, path):
 
-
     # Start recorder with the given values of
     # duration and sample frequency
     recording = sd.rec(int(duration * freq),

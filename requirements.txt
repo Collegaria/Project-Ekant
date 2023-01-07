@@ -3,3 +3,9 @@ noisereduce
 soundfile
 sounddevice
 wavio
+simple-diarizer
+tempfile
+tqdm
+validators
+youtube-dl
+subprocess
