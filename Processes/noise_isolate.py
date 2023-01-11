@@ -54,14 +54,19 @@ def diarize_yt(youtube_url, diar, ns=None):
                                 outfile=f"{outdir}/{youtube_id}.rttm")
         return segments, (signal, fs)
 
-diar = Diarizer(
-                embed_model='ecapa', # supported types: ['xvec', 'ecapa']
-                cluster_method='sc', # supported types: ['ahc', 'sc']
-                window=1.5, # size of window to extract embeddings (in seconds)
-                period=0.75 # hop of window (in seconds)
-                )
 
-iasip_video = "https://www.youtube.com/watch?v=ghrdSTC66MA"
-iasip_segments, (iasip_signal, fs) = diarize_yt(iasip_video, diar, 2)
+def main():
+    diar = Diarizer(
+                    embed_model='ecapa', # supported types: ['xvec', 'ecapa']
+                    cluster_method='sc', # supported types: ['ahc', 'sc']
+                    window=1.5, # size of window to extract embeddings (in seconds)
+                    period=0.75 # hop of window (in seconds)
+                    )
 
-waveplot_perspeaker(iasip_signal, fs, iasip_segments)
+    iasip_video = "https://www.youtube.com/watch?v=ghrdSTC66MA"
+    iasip_segments, (iasip_signal, fs) = diarize_yt(iasip_video, diar, 2)
+
+    waveplot_perspeaker(iasip_signal, fs, iasip_segments)
+    
+if __name__ == "__main__":
+    main()
